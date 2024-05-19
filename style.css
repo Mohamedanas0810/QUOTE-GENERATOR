@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(95deg, #8ACDD7, #96EFFF);
+}
+
+.quotecontent {
+    background-color: #fff;
+    height: 350px;
+    width: 650px;
+    margin: 200px auto 0px auto;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px #39A7FF;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    background-color: #164863;
+    bottom: -5px;
+    left: 0px;
+    height: 3px;
+    border-radius: 5px;
+    width: 25%;
+    transform: translateX(150%);
+    align-items: center;
+}
+
+.quote {
+    margin-top: 30px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+.author {
+    text-align: right;
+    padding: 10px;
+    position: relative;
+}
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttons>button {
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.generate {
+    background-color: #39A7FF;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.tweet {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+.twitter{
+    height:10px;
+    width:10px;
+    margin-right: 5px;
+}
